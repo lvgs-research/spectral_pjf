@@ -1,18 +1,6 @@
-# A Spectral Analysis of Heterogeneous Graph Recommenders for Person-Job Fit
+# A Spectral Analysis of Heterogeneous Graph Recommenders for Person-Job Fit (RecSys in HR '26)
 
 Code for reproducing the experiments and analysis in the paper.
-
-**Accepted at RecSys in HR '26: The 6th Workshop on Recommender
-Systems for Human Resources**, in conjunction with the 20th ACM Conference on Recommender
-Systems, September 28 – October 2, 2026, Minneapolis, MN, United States.
-Proceedings: CEUR Workshop Proceedings (CEUR-WS.org), CC BY 4.0.
-
-**Authors** — Haoyi Xiu\* ([0000-0002-2092-3879](https://orcid.org/0000-0002-2092-3879)),
-Shuya Nagayasu ([0000-0001-7033-8734](https://orcid.org/0000-0001-7033-8734)),
-Norihiro Hizawa ([0000-0002-2325-7170](https://orcid.org/0000-0002-2325-7170)).
-Leverages Co., Ltd., Tokyo, Japan. \*Corresponding author: <hiroki.shu@leverages.jp>.
-
-Licensed under the [MIT License](LICENSE).
 
 > **Datasets.** The Tech dataset is not included due to privacy concerns. Tianchi dataset is public and thus the results can be reproduced. 
 > Please see section 4 for the download.  
@@ -145,22 +133,7 @@ python -m link_prediction_experiment.tianchi_pjf.embed_text \
 
 ---
 
----
 
-## Citation
-
-```bibtex
-@inproceedings{xiu2026spectral,
-  author    = {Haoyi Xiu and Shuya Nagayasu and Norihiro Hizawa},
-  title     = {A Spectral Analysis of Heterogeneous Graph Recommenders for Person-Job Fit},
-  booktitle = {Proceedings of the 6th Workshop on Recommender Systems for Human Resources
-               (RecSys in HR '26), in conjunction with the 20th ACM Conference on Recommender Systems},
-  series    = {CEUR Workshop Proceedings},
-  publisher = {CEUR-WS.org},
-  year      = {2026},
-  note      = {Volume and page numbers to be added on publication}
-}
-```
 
 ## License
 
